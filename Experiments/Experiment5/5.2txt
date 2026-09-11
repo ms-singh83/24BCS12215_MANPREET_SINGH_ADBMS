@@ -1,0 +1,22 @@
+/* Write a query to do the following:
+ - JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table.
+ - LEFT JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table. */
+ 
+ SELECT *
+FROM student
+INNER JOIN course
+ON student.Course_id = course.Course_id;
+
+SELECT *
+FROM student
+LEFT JOIN course
+ON student.Course_id = course.Course_id;
+
+
+
+4.1 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/ASQL01D?tab=statement
+4.2 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/GSQ63?tab=statement
+4.3 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/ASQL01E?tab=statement
+4.4 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/ASQL01B?tab=statement
+4.5 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/ASQL01F?tab=statement
+4.6 https://www.codechef.com/learn/course/sql-intermediate/SQ00BS01/problems/ASQL01C
